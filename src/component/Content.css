@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 100%;
+}
+
+.boy-image , .girl-image {
+    width: 150px;
+    height: 150px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+}
